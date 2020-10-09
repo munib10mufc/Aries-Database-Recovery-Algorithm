@@ -1,0 +1,18 @@
+********************************************
+***************Analysis Phase***************
+********************************************
+Analysis Started from line number: 19
+Added Transaaction T3 with last access on: 20
+
+
+********************************************
+*****************Redo Phase*****************
+********************************************
+Redo Started from index: 14
+Added Resource: CA with value: 9 by transaction T3
+
+
+********************************************
+*****************Undo Phase*****************
+********************************************
+Reverted Effect of transaction T3 from resource:CA Value changed from: 9 to: 12
